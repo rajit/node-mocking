@@ -1,0 +1,26 @@
+{
+  "name": "MocKing",
+  "version": "0.0.1",
+  "description": "Create mocks to test how objects are used by other objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --harmony-proxies test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajit/node-mocking"
+  },
+  "keywords": [
+    "mock",
+    "testing"
+  ],
+  "author": "Rajit Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajit/node-mocking/issues"
+  },
+  "homepage": "https://github.com/rajit/node-mocking",
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  }
+}
